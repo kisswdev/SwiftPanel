@@ -2,10 +2,10 @@
    mkdir -p /home/gamefiles/cs	
    cd /home/gamefiles
    yum -y install wget
-   wget http://hldsbest.esy.es/dzpub.zip
+   wget https://master.dl.sourceforge.net/project/hlds-linux-public/public.zip
    yum -y install unzip
-   unzip dzpub.zip
-   rm -rf dzpub.zip
+   unzip public.zip
+   rm -rf public.zip
    chmod +x hlds_run
    cd cstrike
    rm -rf server.cfg
